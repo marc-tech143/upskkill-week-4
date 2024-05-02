@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9; /* Light grey background for the overall page */
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 300px;
+    background-color: #2a8bf2; /* Blue background for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    color: white; /* White text for everything inside the card */
+}
+
+.profile-img {
+    width: 80px; /* Smaller image size */
+    height: 80px; /* Maintain aspect ratio for a circle */
+    border-radius: 50%; /* Circular shape */
+    margin: 0 auto;
+    display: block;
+    border: 3px solid white; /* White border for the image */
+}
+
+.profile-info h1, .profile-info h2 {
+    margin: 10px 0;
+}
+
+.profile-info p {
+    text-align: left;
+    margin-top: 10px;
+}
